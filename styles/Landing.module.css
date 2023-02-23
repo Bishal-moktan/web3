@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;300;500&display=swap');
-body {
-  font-family: 'Livvic', sans-serif;
+.landing {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  place-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.content h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.content h3 {
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .btn {

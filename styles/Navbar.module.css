@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;300;500&display=swap');
-body {
-  font-family: 'Livvic', sans-serif;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 1px 1px 0.3px rgba(0, 0, 0, 0.2);
 }
 
 .btn {
